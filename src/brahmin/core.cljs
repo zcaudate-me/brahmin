@@ -1,6 +1,6 @@
 (ns brahmin.core
   (:require [gyr.functions :refer [js-map]]
-            [brahmin.category.common :refer [get-context]]
+            [brahmin.common :refer [get-context]]
             [brahmin.category.functor]
             [brahmin.category.applicative]
             [brahmin.category.magma]
