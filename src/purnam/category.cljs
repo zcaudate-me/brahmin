@@ -1,16 +1,16 @@
-(ns purnam.category
-  (:require [purnam.native.functions :refer [js-map]]
-            [purnam.category.common :refer [get-context]]
-            [purnam.category.functor]
-            [purnam.category.applicative]
-            [purnam.category.magma]
-            [purnam.category.monoid]
-            [purnam.category.foldable]
-            [purnam.category.monad]
-            [purnam.category.curried]
-            [purnam.category.maybe]
-            [purnam.category.protocols :as p])
-  (:use-macros [purnam.category.macros :only [with-context]]))
+(ns brahmin.core
+  (:require [gyr.functions :refer [js-map]]
+            [brahmin.category.common :refer [get-context]]
+            [brahmin.category.functor]
+            [brahmin.category.applicative]
+            [brahmin.category.magma]
+            [brahmin.category.monoid]
+            [brahmin.category.foldable]
+            [brahmin.category.monad]
+            [brahmin.category.curried]
+            [brahmin.category.maybe]
+            [brahmin.protocols :as p])
+  (:use-macros [brahmin.macros :only [with-context]]))
 
 (defn fmap
   ([f]
@@ -127,9 +127,9 @@
 (defn guard [b]
   (if b (return []) (id (get-context))))
        
-(def curry purnam.category.curried/curry)
+(def curry brahmin.category.curried/curry)
 
-(def arities purnam.category.curried/arities)
+(def arities brahmin.category.curried/arities)
 
 (defn just [n]
-  (purnam.category.maybe/Just. n))
+  (brahmin.category.maybe/Just. n))

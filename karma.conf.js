@@ -13,9 +13,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/purnam.category.js',
-      'test/test-native-functions.js',
-      'test/test-native.js'
+      'test/brahmin.js'
     ],
 
 

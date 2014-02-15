@@ -1,4 +1,4 @@
-(ns purnam.category.common)
+(ns brahmin.category.common)
 
 (def ^:dynamic *pure-context*)
 

@@ -1,9 +1,8 @@
-(ns purnam.category.magma
+(ns brahmin.category.magma
   (:require
-    [purnam.native.functions :refer [js-concat js-merge]]
-    [purnam.native :refer [obj-only]]
-    [purnam.category.protocols :refer [Magma op pure]])
-  (:use-macros [purnam.category.macros :only [extend-all]]))
+    [gyr.functions :refer [js-concat js-merge obj-only]]
+    [brahmin.protocols :refer [Magma op pure]])
+  (:use-macros [brahmin.macros :only [extend-all]]))
 
 (defn op-object
   ([x y]

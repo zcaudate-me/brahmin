@@ -1,9 +1,8 @@
-(ns purnam.category.foldable
+(ns brahmin.category.foldable
   (:require
-   [purnam.native.functions :refer [js-map]]
-   [purnam.native :refer [obj-only]]
-   [purnam.category.protocols :refer [Foldable fold foldmap op id]])
-  (:use-macros [purnam.category.macros :only [extend-all]]))
+   [gyr.functions :refer [js-map obj-only]]
+   [brahmin.protocols :refer [Foldable fold foldmap op id]])
+  (:use-macros [brahmin.macros :only [extend-all]]))
 
 (defn fold-array [fd] (reduce op fd))
 

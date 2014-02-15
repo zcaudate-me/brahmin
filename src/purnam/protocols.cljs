@@ -1,4 +1,4 @@
-(ns purnam.category.protocols)
+(ns brahmin.protocols)
 
 (defprotocol Curried
   (arity [f]))

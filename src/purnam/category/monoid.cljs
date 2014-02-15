@@ -1,8 +1,8 @@
-(ns purnam.category.monoid
+(ns brahmin.category.monoid
   (:require
-    [purnam.native :refer [obj-only]]
-    [purnam.category.protocols :refer [Monoid id]])
-  (:use-macros [purnam.category.macros :only [extend-all]]))
+    [gyr.functions :refer [obj-only]]
+    [brahmin.protocols :refer [Monoid id]])
+  (:use-macros [brahmin.macros :only [extend-all]]))
 
 (extend-type nil Monoid
   (id [_] nil))

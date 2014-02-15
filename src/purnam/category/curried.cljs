@@ -1,8 +1,8 @@
-(ns purnam.category.curried
+(ns brahmin.category.curried
   (:require
-    [purnam.native]
-    [purnam.category.protocols :refer [Curried Functor Applicative Monad Monoid Magma Foldable id fmap fold bind]])
-  (:use-macros [purnam.category.macros :only [with-context]]))
+    [brahmin.native]
+    [brahmin.protocols :refer [Curried Functor Applicative Monad Monoid Magma Foldable id fmap fold bind]])
+  (:use-macros [brahmin.macros :only [with-context]]))
     
 (declare curry)
 

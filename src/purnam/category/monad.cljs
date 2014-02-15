@@ -1,11 +1,10 @@
-(ns purnam.category.monad
+(ns brahmin.category.monad
   (:require
-   [purnam.common :refer [get-context]]
-   [purnam.native :refer [js-mapcat]]
-   [purnam.category.clojure :refer [obj-only]]
-   [purnam.category.functor :refer [fmap-map-r]]
-   [purnam.category.protocols :refer [Monad bind join fmap op]])
-  (:use-macros [purnam.category.macros :only [extend-all with-context]]))
+   [brahmin.common :refer [get-context]]
+   [brahmin.native :refer [js-mapcat obj-only]]
+   [brahmin.category.functor :refer [fmap-map-r]]
+   [brahmin.protocols :refer [Monad bind join fmap op]])
+  (:use-macros [brahmin.macros :only [extend-all with-context]]))
 
 (defn with-current-context
   "Creates a function that applies function f with the supplied arguments,

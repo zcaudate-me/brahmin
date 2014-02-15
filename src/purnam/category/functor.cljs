@@ -1,10 +1,9 @@
-(ns purnam.category.functor
+(ns brahmin.category.functor
   (:require
-    [purnam.native.functions :refer [js-map js-type]]
-    [purnam.native :refer [obj-only]]
-    [purnam.category.protocols :refer [Functor]])
+    [gyr.functions :refer [js-map js-type obj-only]]
+    [brahmin.protocols :refer [Functor]])
   (:use-macros
-   [purnam.category.macros :only [extend-all]]))
+   [brahmin.macros :only [extend-all]]))
 
 (defn fmap-function
   ([fv g] (comp g fv))

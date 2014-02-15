@@ -1,4 +1,4 @@
-(ns purnam.category.macros
+(ns brahmin.macros
   (:require [clojure.walk :as w]))
 
 (defn extend-single [proto ptmpls t funcs]
@@ -23,5 +23,5 @@
   with the get-context function in the dynamic scope inside
   the body."
  [context & body]
- `(binding [purnam.category.common/*pure-context* ~context]
+ `(binding [brahmin.category.common/*pure-context* ~context]
     ~@body))

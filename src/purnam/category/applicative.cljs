@@ -1,10 +1,9 @@
-(ns purnam.category.applicative
+(ns brahmin.category.applicative
   (:require
-    [purnam.native.functions :refer [js-map js-mapcat js-merge]]
-    [purnam.native :refer [obj-only]]
-    [purnam.category.functor :refer [group-entries]]
-    [purnam.category.protocols :refer [Applicative fmap]])
-  (:use-macros [purnam.category.macros :only [extend-all]]))
+    [gyr.functions :refer [js-map js-mapcat js-merge obj-only]]
+    [brahmin.category.functor :refer [group-entries]]
+    [brahmin.protocols :refer [Applicative fmap]])
+  (:use-macros [brahmin.macros :only [extend-all]]))
 
 (defn fapply-array
   ([ag av]

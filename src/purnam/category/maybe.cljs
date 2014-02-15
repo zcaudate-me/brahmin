@@ -1,5 +1,5 @@
-(ns purnam.category.maybe
-  (:require [purnam.category.protocols :refer [Curried Functor Applicative Monad Monoid Magma Foldable id fmap fold bind op]]))
+(ns brahmin.category.maybe
+  (:require [brahmin.protocols :refer [Curried Functor Applicative Monad Monoid Magma Foldable id fmap fold bind op]]))
 
 (deftype Just [v]
   Object
