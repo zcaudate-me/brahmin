@@ -1,5 +1,5 @@
 (defproject im.chit/brahmin "0.4.0"
-  :description "Category theory for Clojurescript"
+  :description "Category theory morphisms for clojurescript"
   :url "http://www.github.com/brahmin/brahmin.category"
   :license {:name "The MIT License"
             :url "http://opensource.org/licencses/MIT"}
