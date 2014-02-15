@@ -1,6 +1,6 @@
 (defproject im.chit/brahmin "0.4.0"
   :description "Category theory morphisms for clojurescript"
-  :url "http://www.github.com/brahmin/brahmin.category"
+  :url "http://www.github.com/purnam/brahmin"
   :license {:name "The MIT License"
             :url "http://opensource.org/licencses/MIT"}
   :dependencies [[org.clojure/clojure "1.5.1"]
