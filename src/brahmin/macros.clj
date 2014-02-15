@@ -23,5 +23,5 @@
   with the get-context function in the dynamic scope inside
   the body."
  [context & body]
- `(binding [brahmin.category.common/*pure-context* ~context]
+ `(binding [brahmin.common/*pure-context* ~context]
     ~@body))

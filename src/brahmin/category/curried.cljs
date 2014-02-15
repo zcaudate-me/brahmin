@@ -1,6 +1,6 @@
 (ns brahmin.category.curried
   (:require
-    [brahmin.native]
+    [gyr.core]
     [brahmin.protocols :refer [Curried Functor Applicative Monad Monoid Magma Foldable id fmap fold bind]])
   (:use-macros [brahmin.macros :only [with-context]]))
     

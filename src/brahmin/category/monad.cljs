@@ -1,7 +1,7 @@
 (ns brahmin.category.monad
   (:require
+   [gyr.core :refer [js-mapcat obj-only]]
    [brahmin.common :refer [get-context]]
-   [brahmin.native :refer [js-mapcat obj-only]]
    [brahmin.category.functor :refer [fmap-map-r]]
    [brahmin.protocols :refer [Monad bind join fmap op]])
   (:use-macros [brahmin.macros :only [extend-all with-context]]))
