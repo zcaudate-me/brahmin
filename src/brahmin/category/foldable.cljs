@@ -1,6 +1,6 @@
 (ns brahmin.category.foldable
   (:require
-   [gyr.functions :refer [js-map obj-only]]
+   [purnam.native.functions :refer [js-map obj-only]]
    [brahmin.protocols :refer [Foldable fold foldmap op id]])
   (:use-macros [brahmin.macros :only [extend-all]]))
 

@@ -1,6 +1,6 @@
 (ns brahmin.category.monoid
   (:require
-    [gyr.functions :refer [obj-only]]
+    [purnam.native.functions :refer [obj-only]]
     [brahmin.protocols :refer [Monoid id]])
   (:use-macros [brahmin.macros :only [extend-all]]))
 

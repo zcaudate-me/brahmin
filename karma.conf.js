@@ -13,8 +13,8 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'test/brahmin.js',
-      'test/test-core.js'
+      'target/brahmin.js'
+      //'test/test-core.js'
     ],
 
 

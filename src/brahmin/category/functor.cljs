@@ -1,6 +1,6 @@
 (ns brahmin.category.functor
   (:require
-    [gyr.functions :refer [js-map js-type obj-only]]
+    [purnam.native.functions :refer [js-map js-type obj-only]]
     [brahmin.protocols :refer [Functor]])
   (:use-macros
    [brahmin.macros :only [extend-all]]))

@@ -1,5 +1,5 @@
 (ns brahmin.core
-  (:require [gyr.functions :refer [js-map]]
+  (:require [purnam.native.functions :refer [js-map]]
             [brahmin.common :refer [get-context]]
             [brahmin.category.functor]
             [brahmin.category.applicative]

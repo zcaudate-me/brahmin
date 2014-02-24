@@ -1,6 +1,6 @@
 (ns brahmin.category.magma
   (:require
-    [gyr.functions :refer [js-concat js-merge obj-only]]
+    [purnam.native.functions :refer [js-concat js-merge obj-only]]
     [brahmin.protocols :refer [Magma op pure]])
   (:use-macros [brahmin.macros :only [extend-all]]))
 

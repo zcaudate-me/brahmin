@@ -1,6 +1,6 @@
 (ns brahmin.category.monad
   (:require
-   [gyr.core :refer [js-mapcat obj-only]]
+   [purnam.native.functions :refer [js-mapcat obj-only]]
    [brahmin.common :refer [get-context]]
    [brahmin.category.functor :refer [fmap-map-r]]
    [brahmin.protocols :refer [Monad bind join fmap op]])

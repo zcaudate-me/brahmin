@@ -1,6 +1,6 @@
 (ns brahmin.category.applicative
   (:require
-    [gyr.functions :refer [js-map js-mapcat js-merge obj-only]]
+    [purnam.native.functions :refer [js-map js-mapcat js-merge obj-only]]
     [brahmin.category.functor :refer [group-entries]]
     [brahmin.protocols :refer [Applicative fmap]])
   (:use-macros [brahmin.macros :only [extend-all]]))
