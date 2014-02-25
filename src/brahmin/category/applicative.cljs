@@ -70,7 +70,7 @@
 (defn pure-object [av v]
   (obj-only av :pure)
   (let [o (js-obj)]
-    (aset o nil v)
+    (aset o "" v)
     o))
 
 (defn fapply-object
