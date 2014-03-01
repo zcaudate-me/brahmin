@@ -6,7 +6,13 @@ Category theory morphisms for clojurescript
 
 ## Usage
 
-TBD
+Stable Version: 
+
+    [im.chit/brahmin "0.3.1"]
+
+Documentation:
+
+- [API](http://purnam.github.io/brahmin/)
 
 ## License
 

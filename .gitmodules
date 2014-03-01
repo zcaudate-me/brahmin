@@ -1,0 +1,4 @@
+[submodule "doc"]
+	path = doc
+	url = https://github.com/purnam/brahmin.git
+	branch = gh-pages
