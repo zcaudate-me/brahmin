@@ -89,6 +89,13 @@
        (p/bind monadic (last args)
                (cons monadic2 (butlast args))))))
 
+ (defn >> 
+   "(>>) :: forall a b. m a -> m b -> m b
+   Sequentially compose two actions, discarding any value produced by the first, 
+   like sequencing operators (such as the semicolon) in imperative languages."
+   [monadic n]
+   (bind monadic (fn [_] n)))
+
 (defn >>=
   ([monadic]
     (fn [f & fs]
