@@ -22,6 +22,8 @@
   ([mv g mvs]
      (join (fmap mv g mvs))))
 
+(defn join-function [mv] mv)
+
 (defn join-atom [mv] mv)
 
 (defn join-array [mv]
@@ -160,6 +162,7 @@
  object            [bind-object join-object]
  array             [bind-array join-array]
  Atom              [bind-default join-atom]
+ function          [bind-default join-function]
 
  LazySeq           [bind-lazyseq join-seq]
  [EmptyList
