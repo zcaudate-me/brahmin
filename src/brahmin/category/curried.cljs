@@ -106,7 +106,7 @@
             (apply (apply cg x xs) (apply cf x xs)
                    (map #(apply % x xs) hs)))))))
 
-(extend-type CFn Monad
+(extend-type CFn
   Monad
   (bind [cf cg]
       (curry 1
