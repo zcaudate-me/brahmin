@@ -4,10 +4,10 @@
   :license {:name "The MIT License"
             :url "http://opensource.org/licencses/MIT"}
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [im.chit/purnam.core "0.5.1"]
-                 [im.chit/purnam.native "0.5.1"]]
-  :profiles {:dev {:dependencies [[org.clojure/clojurescript "0.0-2356"]
-                                  [im.chit/purnam.test "0.5.1"]
+                 [im.chit/purnam.core "0.5.2"]
+                 [im.chit/purnam.native "0.5.2"]]
+  :profiles {:dev {:dependencies [[org.clojure/clojurescript "0.0-3058"]
+                                  [im.chit/purnam.test "0.5.2"]
                                   [midje "1.6.3"]]
                    :plugins [[lein-ancient "0.5.5"]
                              [lein-midje "3.1.3"]
